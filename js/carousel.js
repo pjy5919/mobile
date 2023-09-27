@@ -7,23 +7,23 @@ class Carousel {
     this.carouselData = [
       {
         'id': '1',
-        'src': 'https://github.com/pjy5919/Mobikeweb/blob/main/image/p1.PNG?raw=true',
+        'src': 'https://github.com/pjy5919/mobile/blob/main/image/p1.PNG?raw=true',
       },
       {
         'id': '2',
-        'src': 'https://github.com/pjy5919/Mobikeweb/blob/main/image/p2.PNG?raw=true',
+        'src': 'https://github.com/pjy5919/mobile/blob/main/image/p2.PNG?raw=true',
       },
       {
         'id': '3',
-        'src': 'https://github.com/pjy5919/Mobikeweb/blob/main/image/p3.PNG?raw=true',
+        'src': 'https://github.com/pjy5919/mobile/blob/main/image/p3.PNG?raw=true',
       },
       {
         'id': '4',
-        'src': 'https://github.com/pjy5919/Mobikeweb/blob/main/image/p4.PNG?raw=true',
+        'src': 'https://github.com/pjy5919/mobile/blob/main/image/p4.PNG?raw=true',
       },
       {
         'id': '5',
-        'src': 'https://github.com/pjy5919/Mobikeweb/blob/main/image/p5.PNG?raw=true',
+        'src': 'https://github.com/pjy5919/mobile/blob/main/image/p5.PNG?raw=true',
         
       }
     ];
