@@ -137,9 +137,6 @@
     text-align: center;
     transition: 0.5s;
   }
-  .game1:hover{
-    transform: scale(1.1);
-  }
   .resultList {
     display: flex;
     justify-content: space-around;
