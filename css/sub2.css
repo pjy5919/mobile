@@ -2,12 +2,11 @@
 @import url(header+footer.css);
 @import url(menu.css);
 
-
+html{
+  scroll-behavior: smooth;
+}
 @media screen and (max-width:767px) {
-  body{
-    width:100%;
-    max-width:767px;
-  }
+
   .mubertop {
     padding-top: 70px;
     width: 100%;
@@ -15,7 +14,7 @@
     margin: 10px auto;
   }
 
-  .alltop5 h3 {
+  #alltop5 h3 {
     padding-left: 20px;
     color: #002063;
   }
@@ -74,7 +73,7 @@
     font-weight: bold;
   }
 
-  .numbertopM h3 {
+  #numbertopM h3 {
     padding-left: 20px;
     color: #002063;
   }

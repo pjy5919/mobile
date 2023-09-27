@@ -1,4 +1,3 @@
-
 @media screen and (max-width:767px) {
 /* page styles */
 .ax-hidden {
@@ -9,19 +8,23 @@
 /* carousel styles */
 .carousel {
   --carousel-height: 400px;
-  --carousel-width: 1000px;
+  --carousel-width: 100%;
   --carousel-item-height: 150px;
   --carousel-item-width: 150px;
   width: 100%;
+  max-width: 767px;
 }
 
 .carousel-container {
+  width: 100%;
+  max-width: 767px;
   align-items: center;
   display: flex;
   min-height: var(--carousel-height);
   margin: 0 auto;
   max-width: var(--carousel-width);
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-item {
@@ -179,4 +182,5 @@
   top: 6px; 
   width: 6px;
 }
+
 }

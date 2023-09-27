@@ -1,10 +1,11 @@
 @import url(menu.css);
 @import url(header+footer.css);
 @import url(common.css);
+
 @media screen and (max-width:767px) {
   body {
     width: 100%;
-    max-width:767px;
+    max-width: 767px;
     background-color: #F5F5F5;
     font-family: 'KBO-Dia-Gothic_light';
   }
@@ -22,6 +23,7 @@
     justify-content: space-between;
     height: 59px;
     width: 100%;
+    max-width: 767px;
   }
   .nav_sub ul li {
     padding-left: 15px;
@@ -35,7 +37,6 @@
     display: flex;
     justify-content: center;
     width:100%;
-    max-width:767px;
     background-color: #0062DF;
 
   }
@@ -54,6 +55,7 @@
     text-align: center;
     padding-top: 80px;
     width: 100%;
+    max-width: 767px;
     height: 390px;
     margin: 0;
     background-color: #00083e;
@@ -147,6 +149,7 @@
   }
 
   .slide_btn ul {
+    
     display: flex;
   }
 
@@ -191,7 +194,6 @@
   .teamlink {
     font-family: 'KBO-Dia-Gothic_bold';
     width: 100%;
-    max-width:767px;
     height: 280px;
     background-color: #E7EBF4;
   }
@@ -214,7 +216,6 @@
 
   .tramimag{
     width:100%;
-    max-width:767px;
   }
   .team{
     width: 87%;
@@ -313,5 +314,4 @@
         height: 300px;
 
     }
-}
-
+  }

@@ -4,7 +4,7 @@
   font-weight: 700;
   font-style: normal;
 }
-@media screen and (max-width:767px) {
+@media screen and (min-width:375px) and (max-width:390px) {
 header{
   font-family: 'KBO-Dia-Gothic_bold';
   width:100%;
