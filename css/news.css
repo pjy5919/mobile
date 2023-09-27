@@ -9,9 +9,7 @@
 }
 
 @media screen and (max-width:767px) {
-
   /* section */
-
   body{
     width: 100%;
     max-width: 767px;
@@ -64,8 +62,6 @@
   }
 
   .HL1 h4 span, .HL2 h4 span{padding: 5px;}
-
-
 
   /* 비디오------------ */
 

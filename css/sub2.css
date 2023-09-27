@@ -2,9 +2,10 @@
 @import url(header+footer.css);
 @import url(menu.css);
 
-html{
+html {
   scroll-behavior: smooth;
 }
+
 @media screen and (max-width:767px) {
 
   .mubertop {
@@ -155,7 +156,7 @@ html{
     text-align: center;
     margin: 20px;
     font-size: 14px;
-    font-size:0.875em ;
+    font-size: 0.875em;
   }
 
   .title {
@@ -193,7 +194,8 @@ html{
   .rank ul li:last-child {
     border-bottom: transparent;
   }
-  select{
+
+  select {
     width: 90px;
     text-align: center;
     height: 30px;
