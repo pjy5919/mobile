@@ -61,12 +61,11 @@
     border-radius: 10px;
     font-size: 12px;
     font-size: 0.750em;
-
     background-color: #E7EBF4;
     line-height: 20px;
   }
 
-  .top5mubT p:nth-child(1) {
+  .top5mubT p:nth-of-type(1) {
     color: #E55027;
     font-weight: bold;
   }
