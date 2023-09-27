@@ -1,3 +1,5 @@
+
+@media screen and (max-width:767px) {
 /* page styles */
 .ax-hidden {
   visibility: hidden;
@@ -177,4 +179,4 @@
   top: 6px; 
   width: 6px;
 }
-
+}
