@@ -4,8 +4,9 @@
 
   body {
     width: 100%;
+    max-width:767px;
     background-color: #F5F5F5;
-      font-family: 'KBO-Dia-Gothic_light';
+    font-family: 'KBO-Dia-Gothic_light';
   }
   section{
     font-family: 'KBO-Dia-Gothic_medium';
