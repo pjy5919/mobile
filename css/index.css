@@ -1,7 +1,7 @@
 @import url(menu.css);
 @import url(header+footer.css);
 @import url(common.css);
-
+@media screen and (max-width:767px) {
   body {
     width: 100%;
     max-width:767px;
@@ -147,7 +147,6 @@
   }
 
   .slide_btn ul {
-    
     display: flex;
   }
 
@@ -314,3 +313,5 @@
         height: 300px;
 
     }
+}
+
