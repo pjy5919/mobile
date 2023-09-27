@@ -1,0 +1,223 @@
+@import url(common.css);
+@import url(header+footer.css);
+@import url(menu.css);
+@font-face {
+  font-family: 'KBO-Dia-Gothic_bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media screen and (max-width:767px) {
+
+  /* section */
+
+  body{
+    width: 100%;
+    max-width: 767px;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap; 
+  }
+
+   /* 하이라이트 */
+
+  .highlightT{
+    display: flex;
+    margin: 100px 0 0 10px;
+    align-items: center;
+  }
+
+  .highlightT h2,.vcr h2,.photo h2{
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .HL1 img, .HL2 img, .Vi1 img, .Vi2 img {
+    width: 85%;
+    height: 70%;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .HL1 img:hover, .HL2 img:hover{transform: scale(1.1);}
+
+  .highlight{
+    text-align: center;
+    margin: 30px;}
+    
+  .HL1, .HL2{margin-top: 30px;}
+
+  .HL1 h3, .HL2 h3{
+    font-size: 12px;
+    text-align: start;
+    padding-left: 30px;
+    margin-top: 10px;
+  }
+
+  .HL1 h4, .HL2 h4{
+    font-size: 8px;
+    text-align: start;
+    padding-left: 30px;
+    margin-top: 3px;
+    color: #666;
+  }
+
+  .HL1 h4 span, .HL2 h4 span{padding: 5px;}
+
+
+
+  /* 비디오------------ */
+
+  .vcr{
+    text-align: center;
+    margin: 30px;
+  }
+
+  .vcrT{
+    display: flex;
+    margin: 50px 0 0 5px;
+    align-items: center;
+  }
+
+
+  .Vi1 img,.Vi2 img{transition: 0.3s;}
+  .Vi1 img:hover,.Vi2 img:hover{transform: scale(1.1);}
+
+
+  .Vi1, .Vi2{margin-top: 30px;}
+  
+    .Vi1 h3, .Vi2 h3{
+      font-weight: bold;
+      font-size: 13px;
+      text-align: start;
+      padding-left: 30px;
+      margin-top: 10px;
+    }
+  
+    .Vi1 h4, .Vi2 h4{
+      font-family:'KBO-Dia-Gothic';
+      font-weight: 700;
+      font-size: 8px;
+      text-align: start;
+      padding-left: 30px;
+      margin-top: 7px;
+      color: #666;
+    }
+  
+    .Vi1 h3 span, .Vi2 h3 span{
+      padding-left: 15px;
+    }
+
+  /* 모달부분 */
+  .modal, .modal2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+  }
+
+  .modal.active,  .modal2 .active {
+    display: block;
+  }
+
+  .modal-content,.modal-content2{
+    background-color: #fff;
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 30px;
+    animation: slidefade 0.35s linear;
+  }
+
+  .modal-content h2, .modal-content2 h2{
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .modal-content img,.modal-content2 img {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .modal-body video,.modal-body2 video{width: 280px;}
+
+  .btn-guide, .btn-guide2 {
+    background-color: #616BEE;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 15px;
+  }
+  .btn-close, .btn-close2 {
+    color: #999;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+
+  @keyframes slidefade {
+    0% {
+      opacity: 0;
+      margin-top: -100px;
+    }
+    100% {
+      margin-top:0px; 
+      opacity: 1;
+    }
+  }
+
+
+ 
+  
+  /* 포토------------ */
+
+  .photo{
+    text-align: center;
+    margin: 30px;
+  }
+
+  .photoT{
+    display: flex;
+    margin: 50px 0 0 5px;
+    align-items: center;
+  }
+
+  .photoT img{
+    width: 32px;
+    height: 29px;
+  }
+
+  .photo ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .PTbox{margin-top: 30px;}
+
+  .PTbox img{
+    width: 140px;
+    height: 142px;
+    transition: 0.3s;
+  }
+
+  .PTbox ul li:nth-child(1){margin-right: 20px;}
+
+/* 푸터 */
+
+  footer{margin-top: 70px;}
+  .icon{margin-bottom: 20px;}
+}
+
