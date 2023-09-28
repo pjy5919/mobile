@@ -11,9 +11,7 @@
     box-sizing: border-box;
   }
 
-  .Wrap {
-    margin: 100px auto 20px;
-  }
+  .Wrap {margin: 100px auto 20px;}
 
   .tabMenu ul {
     display: flex;
@@ -26,9 +24,8 @@
     font-weight: 700;
     width: 50%;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
   }
-
   .tab_btn li:hover,
   .tab_btn li.active {
     border: 1px solid #efefef;
@@ -41,18 +38,16 @@
     border: 1px solid #eee;
     border-bottom: none;
   }
-
   .list:nth-of-type(2) {
     border: 1px solid #eee;
     border-top: none;
   }
-
   .list h3 {
-    font-size: 16px;
     color: #00144C;
-    padding: 10px 15px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 0;
   }
-
   .list ul {
     border-radius: 20px;
     background-color: #F5F5F5;
@@ -61,7 +56,6 @@
     padding: 10px 0;
     margin: 10px;
   }
-
   .list ul li {
     list-style-type: square;
     line-height: 20px;
@@ -69,10 +63,9 @@
     margin: auto;
     color: #777;
   }
-
   .list img {
     width: 90%;
-    margin: 30px 0;
+    margin: 30px 17px;
   }
 
   #tab2 {
@@ -80,65 +73,56 @@
     color: #fff;
     padding: 25px;
   }
-
-  .con_1 {
-    font-weight: 400;
-    margin: 20px 0;
-  }
-
+  .con_1 {margin: 20px 0;}
   .con_1 h3,
   .con_2 h3 {
-    font-size: 17px;
+    font-size: 18px;
+    margin: 7px 15px;
   }
-
   .con_1 p,
   .con_2 p {
     font-size: 12px;
-    margin: 5px 0;
+    margin: 7px 15px;
   }
-
-  .con_1 img {
-    margin: 20px 100px;
+  .logo_image {
+    width: 100px;
+    height: auto;
+    margin: 45px auto;
   }
-
-  .con_2 {
-    /* border: 1px solid #000; */
-    margin: 30px 0;
-  }
-
+  .con_2 {margin: 30px 0;}
   .con_2 div {
     display: flex;
     margin: 20px 0;
     justify-content: space-around;
   }
-
   .con_2 ul:nth-child(1) li {
     background-color: #fff;
     color: #002063;
     width: 90px;
     height: 90px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
     line-height: 90px;
     border-radius: 50%;
     margin: 10px 0;
   }
-
   .con_2 ul:nth-child(2) li {
     font-size: 12px;
     font-weight: 400;
     height: 50px;
-    line-height: 14px;
-    padding: 20px 0;
+    line-height: 20px;
+    padding: 20px 15px;
     margin: 10px 0;
   }
-
+  .con_3{
+    display: flex;
+    justify-content: center;
+  }
   .con_3 img {
     border-radius: 10px;
-    margin: 30px 0;
+    margin: 10px auto 30px;
   }
-
   .con_4 {
     border: 1px solid #000;
     font-size: 8px;
@@ -150,15 +134,7 @@
     background-color: #f5f5f5;
   }
 
-  .tabContent>div {
-    display: none;
-  }
-
-  .tabContent .active {
-    display: block;
-  }
-
-
-
+  .tabContent>div { display: none;}
+  .tabContent .active {display: block;}
 
 }

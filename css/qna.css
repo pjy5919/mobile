@@ -28,37 +28,7 @@
     margin-right: 5px;
   }
 
-  section img {
-    top: 50px;
-  }
-
-  .search_bar {
-    display: flex;
-    margin: 10px 0;
-  }
-
-  input[name=qnasearch] {
-    border: 1px solid #e0e0e0;
-    display: flex;
-    margin: auto;
-    width: 260px;
-    padding: 10px;
-    border-radius: 23px;
-    z-index: -2;
-  }
-
-  input[name=qnasearch]::placeholder {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .search_bar span {
-    width: 16px;
-    font-size: 25px;
-    margin-top: 5px;
-    transform: translateX(-70px);
-    z-index: -1;
-  }
+  section img {top: 50px;}
 
   .qna_all {
     width: 90%;
@@ -134,7 +104,7 @@
   }
 
   .accordion div .content table {
-    width: 310px;
+    width: 90%;
     height: 200px;
     text-align: center;
     font-size: 12px;
@@ -144,7 +114,7 @@
 
   .accordion div .content table td {
     border: 1px solid #ccc;
-    padding: 0 2px;
+    padding: 5px 2px;
   }
 
   .accordion .active1 {

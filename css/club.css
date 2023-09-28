@@ -15,40 +15,33 @@
     margin: 80px auto 40px;
     z-index: -1;
   }
-
   .clubName {
     border: 1px solid #ddd;
     position: relative;
     display: flex;
-    padding: 20px 15px;
+    padding: 15px;
     margin-bottom: 5px;
   }
-
   .clubName:hover {
     border-top: 3px solid #001048;
   }
-
   .clubName div {
     line-height: 20px;
     padding: 5px 15px;
   }
-
   .clubName>div>h3 {
     font-size: 16px;
     font-weight: 700;
   }
-
   .clubName>div>p {
     font-size: 12px;
     font-weight: 400;
     color: #666;
   }
-
   .clubName img {
     width: 70px;
     height: auto;
   }
-
   .clubName a span {
     position: absolute;
     border-radius: 50%;
@@ -72,7 +65,6 @@
     margin: auto;
     overflow: auto;
   }
-
   .modal_in {
     width: 80%;
     position: absolute;
@@ -80,14 +72,12 @@
     transform: translateX(-5px);
     color: #000;
   }
-
   .modal_in h2 {
     font-size: 25px;
     margin: 20px 0;
     color: #fff;
     text-align: center;
   }
-
   .modal-content {
     background-color: #fff;
     border-radius: 20px;
@@ -102,23 +92,18 @@
     cursor: pointer;
   }
 
-  .modal-body {
-    text-align: center;
-  }
-
+  .modal-body {text-align: center;}
   .modal-body img {
     width: auto;
     height: 100px;
     margin: 20px auto 10px;
   }
-
   .modal-body>h3 {
     padding: 5px;
     font-size: 24px;
     font-weight: 600;
     color: #1e1e1e;
   }
-
   .modal-body>h5 {
     color: #aaa;
     font-size: 13px;
@@ -126,65 +111,52 @@
   }
 
   .record {
-    margin-top: 10px;
-    /* border: 1px solid #000; */
     display: flex;
     text-align: center;
-    font-size: 13px;
-    color: #666;
+    font-size: 14px;
+    color: #2F2F2F;
+    justify-content: center;
+    margin: 5px 0;
   }
-
   .record p {
     text-align: center;
-    /* padding: 0 5px; */
     margin-right: 8px;
   }
+  .record p:nth-child(1) {font-size: 25px;}
 
-  .record p:nth-child(1) {
-    font-size: 25px;
+  .modal_info {display: flex;}
+  .modal_info ul{
+    width: 90%;
+    justify-content: space-between;
   }
-
-  .modal_info {
+  .modal_info ul li{
     display: flex;
-    margin: 10px auto;
-    text-align: center;
-  }
-
-  .modal_info ul li {
-    margin-bottom: 9px;
-    height: 40px;
-    line-height: 40px;
-  }
-
-  .modal_info ul:nth-child(1) li {
+    width: 100%;
     background-color: #f1f1f1;
-    width: 60px;
-    /* padding: 9px 14px; */
+    justify-content: space-around;
+    margin-bottom: 9px;
+    padding: 10px;
     font-size: 14px;
-
     font-weight: bold;
     color: #005BAC;
   }
-
-  .modal_info ul:nth-child(2) li {
-    background-color: #f1f1f1;
-    width: 160px;
+  .modal_info ul li span{
+    width: 80%;
     padding: 0 6px;
     font-size: 13px;
-    color: #555;
+    font-weight: 400;
+    color: #666;
   }
-
   .modal-content .sns {
     display: flex;
-    margin: auto;
-    transform: translateX(55px);
+    justify-content: center;
     padding: 20px 0;
   }
-
   .modal-content .sns li img {
     width: 40px;
     height: 40px;
     margin: 0 5px;
     text-align: center;
   }
+
 }
