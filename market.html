@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KBO마켓</title>
   <link rel="stylesheet" href="css/market.css">
 </head>
+
 <body>
   <!-- 서브메뉴바 -->
   <header>
 
     <div class="nav_sub">
       <ul>
-        <li><a href="index.html"><img src="image/arrow1.png" alt="뒤로가기"></a></li>
+        <li><a href="javascript:history.back();"><img src="image/arrow1.png" alt="뒤로가기"></a></li>
         <li><img src="image/KBO마켓로고.png" alt=""></li>
         <li class="trigger"><img src="image/navicon.png" alt="메뉴"></li>
       </ul>
     </div>
-  
+
     <!-- 햄버거 메뉴 -->
     <div id="sidebar">
       <nav>
         <ul class="menu">
-          <ul class="logom_btn">
-            <li><img src="image/KBO-로고W2.png" alt="logo"></li>
-            <li class="colse"><img src="image/x.png" alt="colse"></li>
-          </ul>
+          <li>
+            <ul class="logom_btn">
+              <li><img src="image/KBO-로고W2.png" alt="logo"></li>
+              <li class="colse"><img src="image/x.png" alt="colse"></li>
+            </ul>
+          </li>
           <li class="main"><a href="index.html">홈</a>
           <li class="main"><a href="#">일정/결과</a>
             <ul class="show sub1">
@@ -39,8 +43,8 @@
           </li>
           <li class="main"><a href="#">구단소개</a>
             <ul class="show sub3">
+              <li><a href="club.html">구단소개</a></li>
               <li><a href="about.html">조직및활동</a></li>
-              <li><a href="club.html">KBO로고</a></li>
               <li><a href="Ticketinfo.html">티켓안내</a></li>
             </ul>
           </li>
@@ -55,166 +59,167 @@
         </ul>
       </nav>
     </div>
-    </header>
+  </header>
 
-    <!-- visual ========================== -->
+  <!-- visual ========================== -->
 
-<main>
-  <div id="mainvisual">
-    <div class="slide">
-      <ul>
-        <li><a href="#none"><img src="image/slide1.jpg" alt=""></a></li>
-        <li><a href="#none"><img src="image/slide3.jpg" alt=""></a></li>
-        <li><a href="#none"><img src="image/slide2.jpg" alt=""></a></li>
-      </ul>
-    </div>
-
-    <!-- 하단버튼 -->
-    <div class="slide_btn">
-      <ul>
-        <li class="indent active">01</li>
-        <li class="indent">02</li>
-        <li class="indent">03</li>
-      </ul>
-    </div>
-
-    <!-- play/stop버튼 -->
-    <div class="playstop">
-      <a href="#none" class="stop indent">stop</a>
-      <a href="#none" class="play indent">play</a>
-    </div>
-  </div>
-    </main>
-
-<!-- section ========================== -->
-
-<section>
-  <div class="teamNameBanner">
-    <div class="TNB">
-      <ul>
-        <li><a href="#none"><img src="image/ssg.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/kt.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/lg.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/nc.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/kia.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/doosan.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/eagles.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/gients.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/kiwoom.svg" alt=""></a></li>
-        <li><a href="#none"><img src="image/samsung.svg" alt=""></a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="WEEKLY">
-    <h2>- WEEKLY BEST -</h2>
-    <div>
-      <ul>
-        <li class="W1">
-          <img src="image/1-1.jpg" alt="">
-          <h3>[KBO] 2022 레전드 40 어센틱 유니폼</h3>
-          <h4>179,000원</h4>
-          <h5>99,000원</h5>
-        </li>
-        <li class="W2">
-          <img src="image/2-1.jpg" alt="">
-          <h3>[삼성라이온즈] 레플리카 홈 유니폼</h3>
-          <h4>79,000원</h4>
-          <h5>79,000원</h5>
-        </li>
-      </ul>
-      <ul>
-        <li class="W3">
-          <img src="image/5-1.jpg" alt="">
-          <h3>2023 아시안게임 유니폼 상의</h3>
-          <h4>149,000원</h4>
-          <h5>149,000원</h5>
-        </li>
-        <li class="W4">
-          <img src="image/9-1.jpg" alt="">
-          <h3>2023 LG트윈스 어센틱 홈 유니폼</h3>
-          <h4>139,000원</h4>
-          <h5>139,000원</h5>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="popupBanner">
-    <div class="popB">
-      <ul>
-        <li><a href="#none"><img src="image/popb1.jpg" alt=""></a></li>
-        <li><a href="#none"><img src="image/popb2.jpg" alt=""></a></li>
-        <li><a href="#none"><img src="image/popb3.jpg" alt=""></a></li>
-        <li><a href="#none"><img src="image/popb4.jpg" alt=""></a></li>
-      </ul>
-    </div>
-
-    <!-- 하단버튼 -->
-    <div class="popBbtn"> 
-      <ul>
-        <li class="indent active">01</li>
-        <li class="indent">02</li>
-        <li class="indent">03</li>
-        <li class="indent">04</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="RECOMMEND">
-    <h2>- RECOMMEND ITEMS  -</h2>
-    <ul class="R1">
-      <li><img src="image/7-1.png" alt=""></li>
-      <li>
-        <ul class="R1-1">
-          <li>[TEAM KOREA] PVC 글러브 Baseball Grove</li>
-          <li>99,000원</li>
+  <main>
+    <div id="mainvisual">
+      <div class="slide">
+        <ul>
+          <li><a href="#none"><img src="image/slide1.jpg" alt=""></a></li>
+          <li><a href="#none"><img src="image/slide3.jpg" alt=""></a></li>
+          <li><a href="#none"><img src="image/slide2.jpg" alt=""></a></li>
         </ul>
-      </li>
-    </ul>
-    <ul class="R2">
-      <li><img src="image/8-1.png" alt=""></li>
-      <li>
-        <ul class="R2-1">
-          <li>[KBO] 2023 KBO 올스타전 유니폼키링(나눔)</li>
-          <li>15,000원</li>
+      </div>
+
+      <!-- 하단버튼 -->
+      <div class="slide_btn">
+        <ul>
+          <li class="indent active">01</li>
+          <li class="indent">02</li>
+          <li class="indent">03</li>
         </ul>
-      </li>
-    </ul>
-    <ul class="R3">
-      <li><img src="image/11-1.png" alt=""></li>
-      <li>
-        <ul class="R3-1">
-          <li>[KBO] 2023 KBO 올스타전 구단 로고볼</li>
-          <li>10,000원</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+      </div>
 
-
-
-</section>
-
-<!-- footer=============================== -->
-<footer>
-  <address>
-    <img src="image/KBO-로고W1.png" alt="f_logo">
-    <p>
-      (사)한국야구위원회 | 서울시 강남구 강남대로 278 | 02)3460-4600
-      Copyrightⓒ KBO, All Rights Reserved
-    </p>
-    <div class="icon">
-      <p>Family Sites &nbsp;&nbsp;&nbsp;+</p>
-      <a href="facebook.com/kbo1982"><img src="image/facebook.png" alt="페이스북"></a>
-      <a href="instagram.com/kbo.official"><img src="image/instagram.png" alt="인스타그램"></a>
-      <a href="https://www.youtube.com/@KBO1982/featured"><img src="image/youtube.png" alt="유튜브"></a>
+      <!-- play/stop버튼 -->
+      <div class="playstop">
+        <a href="#none" class="stop indent">stop</a>
+        <a href="#none" class="play indent">play</a>
+      </div>
     </div>
-  </address>
-</footer>
-<script src="js/jquery-3.7.0.min.js"></script>
-<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/market.js"></script>
+  </main>
+
+  <!-- section ========================== -->
+
+  <section>
+    <div class="teamNameBanner">
+      <div class="TNB">
+        <ul>
+          <li><a href="#none"><img src="image/ssg.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/kt.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/lg.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/nc.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/kia.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/doosan.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/eagles.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/gients.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/kiwoom.svg" alt=""></a></li>
+          <li><a href="#none"><img src="image/samsung.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="WEEKLY">
+      <h2>- WEEKLY BEST -</h2>
+      <div>
+        <ul>
+          <li class="W1">
+            <img src="image/1-1.jpg" alt="">
+            <h3>[KBO] 2022 레전드 40 어센틱 유니폼</h3>
+            <h4>179,000원</h4>
+            <h5>99,000원</h5>
+          </li>
+          <li class="W2">
+            <img src="image/2-1.jpg" alt="">
+            <h3>[삼성라이온즈] 레플리카 홈 유니폼</h3>
+            <h4>79,000원</h4>
+            <h5>79,000원</h5>
+          </li>
+        </ul>
+        <ul>
+          <li class="W3">
+            <img src="image/5-1.jpg" alt="">
+            <h3>2023 아시안게임 유니폼 상의</h3>
+            <h4>149,000원</h4>
+            <h5>149,000원</h5>
+          </li>
+          <li class="W4">
+            <img src="image/9-1.jpg" alt="">
+            <h3>2023 LG트윈스 어센틱 홈 유니폼</h3>
+            <h4>139,000원</h4>
+            <h5>139,000원</h5>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="popupBanner">
+      <div class="popB">
+        <ul>
+          <li><a href="#none"><img src="image/popb1.jpg" alt=""></a></li>
+          <li><a href="#none"><img src="image/popb2.jpg" alt=""></a></li>
+          <li><a href="#none"><img src="image/popb3.jpg" alt=""></a></li>
+          <li><a href="#none"><img src="image/popb4.jpg" alt=""></a></li>
+        </ul>
+      </div>
+
+      <!-- 하단버튼 -->
+      <div class="popBbtn">
+        <ul>
+          <li class="indent active">01</li>
+          <li class="indent">02</li>
+          <li class="indent">03</li>
+          <li class="indent">04</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="RECOMMEND">
+      <h2>- RECOMMEND ITEMS -</h2>
+      <ul class="R1">
+        <li><img src="image/7-1.png" alt=""></li>
+        <li>
+          <ul class="R1-1">
+            <li>[TEAM KOREA] PVC 글러브 Baseball Grove</li>
+            <li>99,000원</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="R2">
+        <li><img src="image/8-1.png" alt=""></li>
+        <li>
+          <ul class="R2-1">
+            <li>[KBO] 2023 KBO 올스타전 유니폼키링(나눔)</li>
+            <li>15,000원</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="R3">
+        <li><img src="image/11-1.png" alt=""></li>
+        <li>
+          <ul class="R3-1">
+            <li>[KBO] 2023 KBO 올스타전 구단 로고볼</li>
+            <li>10,000원</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+
+  </section>
+
+  <!-- footer=============================== -->
+  <footer>
+    <address>
+      <img src="image/KBO-로고W1.png" alt="f_logo">
+      <p>
+        (사)한국야구위원회 | 서울시 강남구 강남대로 278 | 02)3460-4600
+        Copyrightⓒ KBO, All Rights Reserved
+      </p>
+      <div class="icon">
+        <p>Family Sites &nbsp;&nbsp;&nbsp;+</p>
+        <a href="facebook.com/kbo1982"><img src="image/facebook.png" alt="페이스북"></a>
+        <a href="instagram.com/kbo.official"><img src="image/instagram.png" alt="인스타그램"></a>
+        <a href="https://www.youtube.com/@KBO1982/featured"><img src="image/youtube.png" alt="유튜브"></a>
+      </div>
+    </address>
+  </footer>
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/market.js"></script>
 </body>
+
 </html>

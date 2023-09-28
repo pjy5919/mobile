@@ -4,18 +4,20 @@
 
 @media screen and (max-width:767px) {
 
-  section{
+  section {
     max-width: 100%;
     border: 1px solid transparent;
     margin: auto;
   }
-  section h2{
+
+  section h2 {
     margin-top: 80px;
     text-align: center;
     font-size: 19px;
     color: #002063;
   }
-  section h2:before{
+
+  section h2:before {
     content: '';
     display: inline-block;
     background-image: url(../image/symbol.png);
@@ -25,101 +27,131 @@
     vertical-align: middle;
     margin-right: 5px;
   }
-  section img{
+
+  section img {
     top: 50px;
   }
-  .search_bar{
+
+  .search_bar {
     display: flex;
     margin: 10px 0;
   }
-  
-  input[name=qnasearch]{
+
+  input[name=qnasearch] {
     border: 1px solid #e0e0e0;
     display: flex;
-    margin:auto;
+    margin: auto;
     width: 260px;
     padding: 10px;
     border-radius: 23px;
     z-index: -2;
   }
-  input[name=qnasearch]::placeholder{
+
+  input[name=qnasearch]::placeholder {
     font-size: 11px;
     text-align: center;
   }
-  .search_bar span{
+
+  .search_bar span {
     width: 16px;
     font-size: 25px;
     margin-top: 5px;
     transform: translateX(-70px);
     z-index: -1;
   }
-  .qna_all{
+
+  .qna_all {
     width: 90%;
     margin: auto;
   }
-  .qna_list{margin: 20px auto;}
-  .qna_list h3{
+
+  .qna_list {
+    margin: 20px auto;
+  }
+
+  .qna_list h3 {
     background-color: #002063;
     color: #fff;
     padding: 18px;
     font-size: 16px;
   }
-  .qna_list ul{
+
+  .qna_list ul {
     border: 1px solid #bbb;
     font-weight: 400;
     text-indent: 20px;
     padding: 20px;
     line-height: 30px;
   }
-  .qna_list ul li.active1{
-    color:#0C2A93;
+
+  .qna_list ul li.active1 {
+    color: #0C2A93;
     font-weight: 700;
   }
-  .accordion{margin-bottom: 30px;}
-  .accordion div .title, 
-  .accordion div .content{
+
+  .accordion {
+    margin-bottom: 30px;
+  }
+
+  .accordion div .title,
+  .accordion div .content {
     background-color: #fff;
     padding: 10px 15px;
     border-bottom: 1px solid #ccc;
   }
-  .accordion div .title{
+
+  .accordion div .title {
     font-weight: 500;
     cursor: pointer;
     color: #333;
     font-size: 15px;
     display: none;
   }
-  .accordion .active1 .title{display: block;}
-  .accordion div .title:nth-child(1){
-    border-top:1px solid #ccc ;}
-  .accordion div .title.active{
+
+  .accordion .active1 .title {
+    display: block;
+  }
+
+  .accordion div .title:nth-child(1) {
+    border-top: 1px solid #ccc;
+  }
+
+  .accordion div .title.active {
     background-color: #002063;
     color: #fff;
   }
-  .accordion div .content{
+
+  .accordion div .content {
     display: none;
     font-size: 14px;
     font-weight: 500;
     color: #777;
     padding: 10px 20px;
   }
-  .accordion div .content img{
+
+  .accordion div .content img {
     width: 300px;
   }
-  .accordion div .content table{
+
+  .accordion div .content table {
     width: 310px;
     height: 200px;
     text-align: center;
     font-size: 12px;
     border-collapse: collapse;
-    margin: 5px 0;  
+    margin: 5px 0;
   }
-  .accordion div .content table td{
+
+  .accordion div .content table td {
     border: 1px solid #ccc;
     padding: 0 2px;
   }
-  .accordion .active1{display: block;}
-  #tab4 .content a{
+
+  .accordion .active1 {
+    display: block;
+  }
+
+  #tab4 .content a {
     text-decoration: underline;
     color: dodgerblue;
   }

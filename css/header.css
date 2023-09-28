@@ -4,30 +4,33 @@
   font-weight: 700;
   font-style: normal;
 }
-@media screen and (min-width:375px) and (max-width:390px) {
-header{
-  font-family: 'KBO-Dia-Gothic_bold';
-  width:100%;
-  max-width: 100%;
-}
 
-.nav_sub{
-  height: 59px;
-  width: 375px;
-  border-bottom: 2px solid #f0f0f0;
-  margin: auto;
-}
+@media screen and (max-width:767px) {
+  header {
+    font-family: 'KBO-Dia-Gothic_bold';
+    width: 100%;
+    max-width: 100%;
+  }
 
-.nav_sub ul{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-}
-.nav_sub ul li{
-margin: 15px;
-}
-.nav_sub ul li img{
-  cursor: pointer;
-}
+  .nav_sub {
+    height: 59px;
+    width: 375px;
+    border-bottom: 2px solid #f0f0f0;
+    margin: auto;
+  }
+
+  .nav_sub ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav_sub ul li {
+    margin: 15px;
+  }
+
+  .nav_sub ul li img {
+    cursor: pointer;
+  }
 }

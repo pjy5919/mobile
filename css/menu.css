@@ -1,6 +1,10 @@
-
+@font-face {
+  font-family: 'KBO-Dia-Gothic_light';
+  src: url('../font/font/KBO-Dia-Gothic_light.woff') format('woff');
+}
 
 #sidebar {
+  font-family: 'KBO-Dia-Gothic_light';
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -21,7 +25,7 @@
 }
 
 .logom_btn li:nth-child(2) {
-  padding: 10px;
+  padding: 18px;
 }
 
 .menu {
@@ -29,11 +33,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #00083B;
+  background-color: #ffff;
   width: 100%;
   height: 100vh;
 }
-
+.menu li:nth-child(1){
+  width: 100%;
+}
 .menu>li {
   position: relative;
   width: 50%;
@@ -74,9 +80,12 @@
   top: 0;
   width: 100%;
   left: 100%;
-  background-color: #FFFFFF;
 }
-.sub1 {top:-60px;}
+
+.sub1 {
+  top: -60px;
+}
+
 .sub2 {
   top: -121px;
 }
@@ -97,4 +106,10 @@
   font-weight: 400;
   line-height: 30px;
 }
-.icon_sns{display: flex;}
+
+.menu>.icon_sns {
+  background-color: #00083B;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+}

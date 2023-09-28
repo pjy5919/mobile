@@ -272,7 +272,7 @@
     width: 375px;
     height: auto;
     flex-direction: column;
-    transform: 0.5s;
+    transition: 0.5s;
   }
 
   .b_btn img {

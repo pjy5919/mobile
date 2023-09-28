@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,30 @@
   <link rel="stylesheet" href="css/carousel.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
-  <body>
-    <header>
-      <div class="maintop">
-        <img src="image/maintop.png" alt="topbaner">
-      </div>
-      <div class="nav_sub">
-        <ul>
-          <li></li>
-          <li><img src="image/KBOlogo2.png" alt=""></li>
-          <li class="trigger"><img src="image/navicon.png" alt="메뉴"></li>
-        </ul>
-        <span class="arrow2"></span>
-      </div>
+
+<body>
+  <header>
+    <div class="maintop">
+      <img src="image/maintop.png" alt="topbaner">
+    </div>
+    <div class="nav_sub">
+      <ul>
+        <li></li>
+        <li><img src="image/KBOlogo2.png" alt=""></li>
+        <li class="trigger"><img src="image/navicon.png" alt="메뉴"></li>
+      </ul>
+      <span class="arrow2"></span>
+    </div>
     <!-- 햄버거 메뉴 -->
     <div id="sidebar">
       <nav>
         <ul class="menu">
-          <ul class="logom_btn">
-            <li><img src="image/KBO-로고W2.png" alt="logo"></li>
-            <li class="colse"><img src="image/x.png" alt="colse"></li>
-          </ul>
+          <li>
+            <ul class="logom_btn">
+              <li><img src="image/KBO-로고W2.png" alt="logo"></li>
+              <li class="colse"><img src="image/x.png" alt="colse"></li>
+            </ul>
+          </li>
           <li class="main"><a href="index.html">홈</a>
           <li class="main"><a href="#">일정/결과</a>
             <ul class="show sub1">
@@ -42,8 +46,8 @@
           </li>
           <li class="main"><a href="#">구단소개</a>
             <ul class="show sub3">
+              <li><a href="club.html">구단소개</a></li>
               <li><a href="about.html">조직및활동</a></li>
-              <li><a href="club.html">KBO로고</a></li>
               <li><a href="Ticketinfo.html">티켓안내</a></li>
             </ul>
           </li>
@@ -58,122 +62,153 @@
         </ul>
       </nav>
     </div>
-    </header>
-    <section>
-      <div class="mainview">
-        <div class="today">
-          <ul>
-            <li>
-              <div id="date"></div>
-              <div class="slide_side_btn">
-                <div class="pre indent">이전보기</div>
-                <div class="nex indent">다음보기</div>
-                </div>
-            </li>
+  </header>
+  <section>
+    <div class="mainview">
+      <div class="today">
+        <ul>
+          <li>
+            <div id="date"></div>
+            <div class="slide_side_btn">
+              <div class="pre indent">이전보기</div>
+              <div class="nex indent">다음보기</div>
+            </div>
+          </li>
           <li>
             <div id="gallery">
               <div class="todatyimg">
                 <ul>
-                <li><img src="image/Group75.png" alt="todaygame"></li>
-                <li><img src="image/Group77.png" alt="todaygame"></li>
-                <li><img src="image/Group78.png" alt="todaygame"></li>
-                <li><img src="image/Group79.png" alt="todaygame"></li>
-                <li><img src="image/Group80.png" alt="todaygame"></li>
-              </ul>
+                  <li><img src="image/Group75.png" alt="todaygame"></li>
+                  <li><img src="image/Group77.png" alt="todaygame"></li>
+                  <li><img src="image/Group78.png" alt="todaygame"></li>
+                  <li><img src="image/Group79.png" alt="todaygame"></li>
+                  <li><img src="image/Group80.png" alt="todaygame"></li>
+                </ul>
               </div>
             </div>
           </li>
-            </ul>
+        </ul>
+      </div>
+      <div class="button">
+        <div class="ticket">
+          <a href="Ticketinfo.html">
+            <p>TICKET</p>
+          </a>
         </div>
-        <div class="button">
-          <div class="ticket">
-            <a href="Ticketinfo.html"><p>TICKET</p></a>
-          </div>
-          <div class="preview">
-            <a href="https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx" target="_blank" ><p>PREVIEW</p></a>
-          </div>
+        <div class="preview">
+          <a href="https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx" target="_blank">
+            <p>PREVIEW</p>
+          </a>
         </div>
-        <div class="slide_btn">
+      </div>
+      <div class="slide_btn">
+        <ul>
+          <li class="indent active">01</li>
+          <li class="indent">02</li>
+          <li class="indent">03</li>
+          <li class="indent">04</li>
+          <li class="indent">05</li>
+        </ul>
+      </div>
+    </div>
+    <div class="teamlink">
+      <h1>TEAM RANKING</h1>
+      <div class="slide_top_btn">
+        <ul>
+          <li class="topbtn active">01</li>
+          <li class="topbtn">02</li>
+          <li class="topbtn">03</li>
+          <li class="topbtn">04</li>
+          <li class="topbtn">05</li>
+          <li class="topbtn">06</li>
+          <li class="topbtn">07</li>
+          <li class="topbtn">08</li>
+          <li class="topbtn">09</li>
+          <li class="topbtn">10</li>
+        </ul>
+      </div>
+      <div class="tramimag">
+        <div class="team">
           <ul>
-            <li class="indent active">01</li>
-            <li class="indent">02</li>
-            <li class="indent">03</li>
-            <li class="indent">04</li>
-            <li class="indent">05</li>
+            <li><img src="image/team1.png" alt="teamrank"><a
+                href="https://www.lgtwins.com/service/html.ncd?view=/pc_twins/twins_main/twins_main" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team2.png" alt="teamrank"><a href="https://www.ktwiz.co.kr/sports/site/baseball/main.do"
+                target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team3.png" alt="teamrank"><a href="https://www.ncdinos.com/" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team4.png" alt="teamrank"><a href="https://www.doosanbears.com/" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team5.png" alt="teamrank"><a href="https://www.ssglanders.com/main" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team6.png" alt="teamrank"><a href="#none" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team7.png" alt="teamrank"><a href="https://tigers.co.kr/" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team8.png" alt="teamrank"><a href="https://www.hanwhaeagles.co.kr/index.do"
+                target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team9.png" alt="teamrank"><a href="http://www.samsunglions.com/" target="_blank">
+                <p>팀페이지</p>
+              </a></li>
+            <li><img src="image/team10.png" alt="teamrank"><a href="http://www.heroesbaseball.co.kr/index.do"
+                target="_blank">
+                <p>팀페이지</p>
+              </a></li>
           </ul>
         </div>
       </div>
-      <div class="teamlink">
-        <h1>TEAM RANKING</h1>
-        <div class="slide_top_btn">
-          <ul>
-            <li class="topbtn active">01</li>
-            <li class="topbtn">02</li>
-            <li class="topbtn">03</li>
-            <li class="topbtn">04</li>
-            <li class="topbtn">05</li>
-            <li class="topbtn">06</li>
-            <li class="topbtn">07</li>
-            <li class="topbtn">08</li>
-            <li class="topbtn">09</li>
-            <li class="topbtn">10</li>
-          </ul>
-        </div>
-        <div class="tramimag">
-          <div class="team">
-            <ul>
-            <li><img src="image/team1.png" alt="teamrank"><a href="https://www.lgtwins.com/service/html.ncd?view=/pc_twins/twins_main/twins_main" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team2.png" alt="teamrank"><a href="https://www.ktwiz.co.kr/sports/site/baseball/main.do" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team3.png" alt="teamrank"><a href="https://www.ncdinos.com/" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team4.png" alt="teamrank"><a href="https://www.doosanbears.com/" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team5.png" alt="teamrank"><a href="https://www.ssglanders.com/main" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team6.png" alt="teamrank"><a href="#none" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team7.png" alt="teamrank"><a href="https://tigers.co.kr/" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team8.png" alt="teamrank"><a href="https://www.hanwhaeagles.co.kr/index.do" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team9.png" alt="teamrank"><a href="http://www.samsunglions.com/" target="_blank"><p>팀페이지</p></a></li>
-            <li><img src="image/team10.png" alt="teamrank"><a href="http://www.heroesbaseball.co.kr/index.do" target="_blank"><p>팀페이지</p></a></li>
-            </ul>
-          </div>
-        </div>
-        <span>※ 야구 순위는 시즌 종료시 전년도 순위 기준으로 노출되며, 개막일 이후 새 시즌 순위표로 노출됩니다</span>
-      </div>
-      <div class="b_btn">
-        <a href="market.html"><img src="image/Group88.png" alt=""></a>
-        <a href="news.html"><img src="image/Group89.png" alt=""></a>
-        <a href="rank.html"><img src="image/Group90.png" alt=""></a>
-      </div>
-      <div class="newsbox">
-        <p>퓨처스리그·시범경기</p>
-        <a href="qna.html"><i class="xi-angle-right-min"></i></a>
-        <p>자주하는질문 이동하기 click</p>
-      </div>
-      <!-- =========슬라이드========= -->
-      <div class="pohto_box">
-        <h2><img src="image/photo.png" alt="icon">
+      <span>※ 야구 순위는 시즌 종료시 전년도 순위 기준으로 노출되며, 개막일 이후 새 시즌 순위표로 노출됩니다</span>
+    </div>
+    <div class="b_btn">
+      <a href="market.html"><img src="image/Group88.png" alt=""></a>
+      <a href="news.html"><img src="image/Group89.png" alt=""></a>
+      <a href="rank.html"><img src="image/Group90.png" alt=""></a>
+    </div>
+    <div class="newsbox">
+      <p>퓨처스리그·시범경기</p>
+      <a href="qna.html"><i class="xi-angle-right-min"></i></a>
+      <p>자주하는질문 이동하기 click</p>
+    </div>
+    <!-- =========슬라이드========= -->
+    <div class="pohto_box">
+      <h2><img src="image/photo.png" alt="icon">
         KBO HOT PHOTO</h2>
-        <a href="news.html"><div class="carousel"></div></a>
-        </div>
-    </section>
-    <!-- footer=============================== -->
-    <footer>
-      <address>
-        <img src="image/KBO-로고W1.png" alt="f_logo">
-        <p>
-          (사)한국야구위원회 | 서울시 강남구 강남대로 278 | 02)3460-4600
-          Copyrightⓒ KBO, All Rights Reserved
-        </p>
-        <div class="icon">
-          <p>Family Sites &nbsp;&nbsp;&nbsp;+</p>
-          <a href="facebook.com/kbo1982"><img src="image/facebook.png" alt="페이스북"></a>
-          <a href="instagram.com/kbo.official"><img src="image/instagram.png" alt="인스타그램"></a>
-          <a href="https://www.youtube.com/@KBO1982/featured"><img src="image/youtube.png" alt="유튜브"></a>
-        </div>
-      </address>
-    </footer>
-    <script src="js/carousel.js"></script>
-    <script src="js/jquery-3.7.0.min.js"></script>
-    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/slide.js"></script>
-  </body>
+      <a href="news.html">
+        <div class="carousel"></div>
+      </a>
+    </div>
+  </section>
+  <!-- footer=============================== -->
+  <footer>
+    <address>
+      <img src="image/KBO-로고W1.png" alt="f_logo">
+      <p>
+        (사)한국야구위원회 | 서울시 강남구 강남대로 278 | 02)3460-4600
+        Copyrightⓒ KBO, All Rights Reserved
+      </p>
+      <div class="icon">
+        <p>Family Sites &nbsp;&nbsp;&nbsp;+</p>
+        <a href="facebook.com/kbo1982"><img src="image/facebook.png" alt="페이스북"></a>
+        <a href="instagram.com/kbo.official"><img src="image/instagram.png" alt="인스타그램"></a>
+        <a href="https://www.youtube.com/@KBO1982/featured"><img src="image/youtube.png" alt="유튜브"></a>
+      </div>
+    </address>
+  </footer>
+  <script src="js/carousel.js"></script>
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/slide.js"></script>
+</body>
+
 </html>
