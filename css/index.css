@@ -12,6 +12,10 @@
     font-family: 'KBO-Dia-Gothic_light';
   }
 
+  header{
+    width: 100%;
+    max-width: 767px;
+  }
   section {
     font-family: 'KBO-Dia-Gothic_medium';
     width: 100%;
