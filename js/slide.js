@@ -61,55 +61,6 @@ auto = setInterval(slideAuto, 4000);
 });
 });
 
-/* 팀슬라이드 */
-
-$(document).ready(function () {
-let $timg = $(".team ul");
-let $timgli = $(".team ul li");
-let $tbtn = $(".slide_top_btn ul li");
-let timg_w = $timgli.width();
-let timg_n = $timgli.length; 
-let toldidx = 0; 
-let tindex = 0; 
-
-
-function tlideImg(tindex) {
-$timg.stop(true,true).animate({marginLeft:"-=130px"},500,function(){
-  $(".team ul li:first-child").appendTo(".team ul");
-  $(this).css({marginLeft:"0px"});
-  $tbtn.eq(toldidx).removeClass("active"); //기존버튼 비활성화
-  $tbtn.eq(tindex).addClass("active");
-  toldidx = tindex;
-});
-};
-bauto=setInterval(tlideImg,4000);
-//자동함수 생성
-function tlideAuto() {
-tindex++;
-if (tindex == timg_n) {
-  //simg_n은 이미지개수 5, index는 0,1,2,3,4
-  tindex = 0;
-}
-tlideImg(tindex); //함수호출
-}
-
-aauto = setInterval(tlideAuto, 4000);
-
-//하단버튼
-$tbtn.click(function () {
-clearInterval(aauto);
-tindex = $(this).index();
-tlideImg(tindex);
-timera = setInterval(tlideAuto, 4000);
-});
-
-$timg.hover(function(){
-clearInterval(bauto);
-},function(){
-bauto=setInterval(tlideAuto,4000);
-});
-});
-
 $(document).ready(function () {
 let objDate = new Date();
 let month=objDate.getMonth(); //월구하기 ->0(1월)부터 11(12월)까지의 정수값
