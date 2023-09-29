@@ -21,7 +21,7 @@
 }
 
 .swiper-container-no-flexbox .swiper-slide {
-  float: left
+  float:left;
 }
 
 .swiper-container-vertical>.swiper-wrapper {
@@ -267,12 +267,12 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-progress {
-  background: rgba(0, 0, 0, .25);
+  background: #fff;
   position: absolute
 }
 
 .swiper-pagination-progress .swiper-pagination-progressbar {
-  background: #007aff;
+  background: #00AEEF;
   position: absolute;
   left: 0;
   top: 0;
@@ -400,6 +400,7 @@ button.swiper-pagination-bullet {
 
 .swiper-container-cube .swiper-slide,
 .swiper-container-flip .swiper-slide {
+  
   pointer-events: none;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;

@@ -72,6 +72,7 @@ let timg_n = $timgli.length;
 let toldidx = 0; 
 let tindex = 0; 
 
+
 function tlideImg(tindex) {
 $timg.stop(true,true).animate({marginLeft:"-=130px"},500,function(){
   $(".team ul li:first-child").appendTo(".team ul");
