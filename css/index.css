@@ -103,10 +103,11 @@
   }
 
   #gallery {
-    width: 100%;
+    width:99%;
+    max-width: 767px;
     height: 172px;
     position: relative;
-    margin: auto;
+    margin:0 auto;
     overflow: hidden;
   }
 
@@ -160,7 +161,6 @@
   }
 
   .slide_btn ul {
-
     display: flex;
   }
 
