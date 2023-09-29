@@ -238,6 +238,7 @@
 .teamlink {
   font-family: 'KBO-Dia-Gothic_bold';
   width: 100%;
+  max-width: 767px;
   height: 280px;
   background-color: #E7EBF4;
 }
@@ -264,7 +265,7 @@
   text-align: center;
 }
   .swiper-container{
-    width: 350px;
+    width: 320px;
     height: 200px;
     margin: 0 auto;
   }
@@ -283,12 +284,12 @@
   }
 
   .swiper-slide ul{
-    display: inline-block;
+    display: flex;
     overflow: hidden;
-    padding: 5px;
+    padding: 10px 0px;
   }
   .swiper-slide>ul>li{
     display: inline-block;
-    margin: 5px;
+    margin-right: 5px;
   }
 }
