@@ -12,10 +12,10 @@
   font-family: 'KBO-Dia-Gothic_light';
   src:url('../font/font/KBO-Dia-Gothic_light.woff') format('woff');
 } 
-
 body{
   font-family: 'KBO-Dia-Gothic_light';
 }
+@media screen and (max-width:767px) {
   /* header=============== */
 header{
   font-family: 'KBO-Dia-Gothic_medium';
@@ -25,7 +25,7 @@ header{
   top:0;
   z-index: 10000;
   width:100%;
-  max-width: 100%;
+  max-width: 767px;
   position: fixed;
   background-color: #ffff;
   font-size: 18px;
@@ -87,5 +87,4 @@ address p{
   padding:10px;
 }
 
-
-
+}
